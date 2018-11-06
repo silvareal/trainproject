@@ -25,7 +25,7 @@ SECRET_KEY = 'x6@xc4f33s-90wt2lt(6nts%qz3#i0wjmy$c0#5#cun064-k1+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['68.183.98.147',]
+ALLOWED_HOSTS = ['68.183.98.147', '.localhost']
 
 
 # Application definition
@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'train_prod',
         'USER': 'trainproject',
         'PASSWORD': 'silvastar1078',
-        'HOST': '68.183.98.147',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
@@ -122,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')

@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'train_prod',
         'USER': 'trainproject',
         'PASSWORD': 'silvastar1078',
-        'HOST': 'localhost',
+        'HOST': '142.93.202.250',
         'PORT': '', 
         
     }
